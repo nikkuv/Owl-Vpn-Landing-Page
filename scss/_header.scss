@@ -1,0 +1,35 @@
+.header{   
+  padding-top: 4rem;
+  position: relative;
+
+  &__heading{
+    @extend %heading;
+  }
+
+  &__para{
+    @extend %paragraph;
+  }
+
+  &__img{
+      height: auto;
+      width:80%;
+  }
+
+  &__desktopimg{
+    max-width: 50%;
+  }
+
+  &__wave-img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__btn{
+    @extend %btn;
+    margin: 1rem auto;
+  }
+}

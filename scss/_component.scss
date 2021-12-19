@@ -1,0 +1,44 @@
+%btn {
+    background-color: $black-color;
+    border: 2px solid $black-color;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+%heading {
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 24px;
+    //line-height: 30px;
+}
+
+%paragraph{
+    font-family: $body-font;
+    padding: 1rem 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+%before-property{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $yellow-color;
+    border-radius: 50%;
+    z-index: -1;
+    visibility: hidden;
+}
